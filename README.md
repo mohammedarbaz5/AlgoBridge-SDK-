@@ -12,10 +12,15 @@ Our mission is to empower developers to break down the barriers between blockcha
 
 **Key Features**
 •	**Modular & Extensible**: Built with a modular architecture. Use our pre-built contracts for standard tokens or extend them for custom assets and even generic message passing.
+
 •	**Trust-Minimized Security**: Security is paramount. Our architecture relies on a decentralized network of validators for transaction consensus, removing single points of failure. No single entity controls the bridge.
+
 •	**Gas-Optimized**: Smart contracts are designed to be highly efficient, leveraging Algorand's speed and low transaction fees to make cross-chain transfers affordable.
+
 •	**Developer-First Experience**: A simple Command Line Interface (CLI) and clear client libraries (JS/TS) abstract away the complexity of deploying and managing the bridge infrastructure.
+
 • **Open-Source**: All code is fully open-source, transparent, and community-driven. We encourage audits, contributions, and feedback.
+
 •	**Multi-Chain by Design**: While our initial focus is on an Algorand-to-Ethereum bridge, the SDK is architected to easily support other EVM and non-EVM chains like Solana, Polygon, BSC, and Avalanche.
 
  **How It Works: A High-Level Overview**
