@@ -11,6 +11,7 @@ AlgoBridge SDK is not just a single bridge—it's a framework for building bridg
 Our mission is to empower developers to break down the barriers between blockchains, starting with Algorand as a core hub.
 
 **Key Features**
+
 •	**Modular & Extensible**: Built with a modular architecture. Use our pre-built contracts for standard tokens or extend them for custom assets and even generic message passing.
 
 •	**Trust-Minimized Security**: Security is paramount. Our architecture relies on a decentralized network of validators for transaction consensus, removing single points of failure. No single entity controls the bridge.
@@ -24,6 +25,7 @@ Our mission is to empower developers to break down the barriers between blockcha
 •	**Multi-Chain by Design**: While our initial focus is on an Algorand-to-Ethereum bridge, the SDK is architected to easily support other EVM and non-EVM chains like Solana, Polygon, BSC, and Avalanche.
 
  **How It Works: A High-Level Overview**
+ 
 AlgoBridge uses a proven lock-and-mint mechanism to transfer assets and a burn-and-release mechanism to return them.
 1.	**Lock**: A user sends their assets (e.g., USDC on Ethereum) to a Source Chain Contract, where they are securely locked.
 2.	**Verify**: A decentralized Validator Network observes this lock event. A supermajority of validators must reach a consensus and cryptographically sign an authorization message.
