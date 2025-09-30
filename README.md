@@ -1,5 +1,5 @@
 # AlgoBridge-SDK-
-AlgoBridge SDK
+*AlgoBridge SDK*
 
 The toolkit for connecting blockchain islands. AlgoBridge is a reusable, open-source SDK that dramatically simplifies the creation of secure, decentralized bridges between Algorand and other major chains like Ethereum, Solana, and more.
 
